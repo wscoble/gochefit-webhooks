@@ -19,7 +19,7 @@ headers = {
 }
 
 
-@app.route('/build/master', api_key_required=True)
+@app.route('/build/master', methods=['GET','POST','PUT'], api_key_required=True)
 def build_master():
     payload = {
         'request': {
@@ -32,7 +32,7 @@ def build_master():
     return 'Ok'
 
 
-@app.route('/build/prod', api_key_required=True)
+@app.route('/build/prod', methods=['GET','POST','PUT'], api_key_required=True)
 def build_prod():
     payload = {
         'request': {
