@@ -1,0 +1,6 @@
+{
+  "profile": "scobletech", 
+  "lambda_arn": "arn:aws:lambda:us-west-2:585411877007:function:gochefit-webhooks", 
+  "app_name": "gochefit-webhooks", 
+  "stage": "dev"
+}
