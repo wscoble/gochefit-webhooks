@@ -1,5 +1,7 @@
 language: python
 python:
-  - "2.7"
-install: "pip install -r requirements.txt"
+- '2.7'
+install: pip install -r requirements.txt
 script: chalice deploy
+env:
+  secure: C5yeOc5RKP95P7ZA4oq6yJGFlgdPPnZkMSj7bOyH57ITbHLMf+KovPTybitXJaLyk0kxnCvW7wQCk0YqyRarVYVQ9zmYz1reIXcWDoLMJRCkYHPbyVWm/Kw0wYPW7JgIT+Pr0g/m2yQPqblGd7LON02DSoRAeVg8apcqtHowlMocVLEv7YhwK5F4+jmQh/yVU455/rTfE/Gwtta6VnBZSPgc3r8eL+8fEG5PoJzNYkYCYkdEpGwDiTemFv2ZsGWypb9h8Y58gIVUfn2iwfB4xQIbCJI4i+hmUzgzqpfKu+MoMKBi33LetpA/Rg2b76OnOZKo7c7EdkLgq4CJz6diVwRp7RkleUoe3fjkpW0EslfzF2RB/h+NUcTiqOo76gksaYT9FCjDlCG13K6ip2IIra1pejH+CN929NB9XaI1OCYBdoLo6nFk39rferz9dBpWGHasJQMU8f6LVJXonafzVnLZhrPBVbjuDJ1i805l1MrDRSo1nmybQIhaz2yaKaPMINAJf1yjQ9mj8WnZ0o1/LjrKtPLonnLIGV2GDUUy+AdZsbC8TWApf76s4z3EXNh7KPR/ZDDR27mMJgli/6ehbCBQrLtIi0osIEn7foj0uN+w6weBMkbTLrDdMTSoBoBTpnXyKETfBfQ1yQRsLxOffkgVptFpCbxfj8i590Q7kzE=
